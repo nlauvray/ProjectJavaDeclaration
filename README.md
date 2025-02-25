@@ -15,3 +15,7 @@
 ### Utils TPn4
 `javac utils/ConversionNombre.java`
 `java utils.ConversionNombre`
+
+### Banque TP n5
+`javac banque/entites/Compte.java banque/TestBanque.java`
+`java banque.TestBanque`
