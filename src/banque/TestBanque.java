@@ -10,5 +10,6 @@ public class TestBanque {
 
         System.out.println("Numéro de compte : " + compte.getNumeroCompte());
         System.out.println("Solde : " + compte.getSolde() + " €");
+        System.out.println(compte1);
     }
 }

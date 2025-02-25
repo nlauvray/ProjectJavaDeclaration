@@ -1,11 +1,8 @@
 
 
 
-### Remise à neuf des .class
-`rm -f entites/*.class essais/*.class`
-`javac entites/*.java essais/*.java`
-
-
+### Remise à niveau des .class 
+`./build.sh`
 
 ### AdressePostale et Personne TP n1, 2, 3
 

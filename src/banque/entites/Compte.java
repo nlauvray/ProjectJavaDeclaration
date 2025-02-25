@@ -1,19 +1,31 @@
 package banque.entites;
-
 public class Compte {
-    private String numeroCompte;
+    private String numero;
     private double solde;
 
-    public Compte(String numeroCompte, double solde) {
-        this.numeroCompte = numeroCompte;
+    public Compte(String numero, double solde) {
+        this.numero = numero;
         this.solde = solde;
     }
 
-    public String getNumeroCompte() {
-        return numeroCompte;
+    public String getNumero() {
+        return numero;
+    }
+
+    public void setNumero(String numero) {
+        this.numero = numero;
     }
 
     public double getSolde() {
         return solde;
+    }
+
+    public void setSolde(double solde) {
+        this.solde = solde;
+    }
+
+    @Override
+    public String toString() {
+        return "Compte n°" + numero + " - Solde : " + solde + " €";
     }
 }
